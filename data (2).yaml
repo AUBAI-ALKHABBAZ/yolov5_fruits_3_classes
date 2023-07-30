@@ -1,0 +1,17 @@
+names:
+- bad apple
+- bad banana
+- bad orange
+- good apple
+- good banana
+- good orange
+nc: 6
+roboflow:
+  license: CC BY 4.0
+  project: rotten-fruit-detector
+  url: https://universe.roboflow.com/project/rotten-fruit-detector/dataset/3
+  version: 3
+  workspace: project
+test: ../test/images
+train: Rotten-Fruit-Detector-3/train/images
+val: Rotten-Fruit-Detector-3/valid/images
